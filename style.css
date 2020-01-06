@@ -1,0 +1,124 @@
+@media screen and (max-width: 1280px) {
+    #mainpage {
+        top: 200px;
+        height: calc(100% - 200px);
+    }
+  }
+  #header{
+
+  }
+ #mainpage{
+        position:fix;
+        width: 100%;
+        margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+  }
+  #intro {
+      text-align: center;
+
+  }
+      #inner{
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        width:auto;
+        text-align:left;
+  }
+.image{
+    position: relative;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 4em 2em 0;
+}
+  img {
+    border-radius: 100%;
+    width: 100%;
+  }
+
+  .content{
+    font-family: #565656;
+    
+  }
+ h1 {
+    margin: 0 0 24px ;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:51px;
+    color: #565656;
+
+
+ }
+ p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #565656;
+    font-size: 18.4px;
+    margin: 0px 0px 27.5px;
+
+ }
+  body {
+    background-color: #ffffff;
+    color: #565656;
+}
+
+ul.actions{
+    display: flex;
+    margin-left: -1em;
+    padding-left: 0;
+}
+ul.action li{
+    padding: 0 0 0 1em;
+    
+}
+li{
+    display:list-item;
+    text-align:left;
+    list-style: none;
+  
+    
+}
+.button{
+
+    border-radius: 4.28571em;
+    border: 1px solid  #565656;
+    display: inline-block;
+    height:  4.28571em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    background-color: transparent;
+    color:inherit !important; 
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.7em;
+    line-height: 4.28571em;
+    border-radius: 4.28571em;
+    padding: 0 29.333px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+}
+
+.style2 {
+  background-color: #f7f7f765;
+  font-family: Arial, Helvetica, sans-serif  #565656;
+}
+
+.inner {
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+
+h2{
+  line-height:1.3;
+
+}
+p{
+  font-size:1.25em;
+  margin: 0 0 2em 0;
+}
+
